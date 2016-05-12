@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0282874B1CE4CE100062B9C0 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 0282874A1CE4CE100062B9C0 /* FactBook.m */; };
+		0282874E1CE4E3A90062B9C0 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0282874D1CE4E3A90062B9C0 /* ColorWheel.m */; };
 		029BFC171CD955C300D91894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 029BFC161CD955C300D91894 /* main.m */; };
 		029BFC1A1CD955C300D91894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 029BFC191CD955C300D91894 /* AppDelegate.m */; };
 		029BFC1D1CD955C300D91894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029BFC1C1CD955C300D91894 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		028287491CE4CE100062B9C0 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		0282874A1CE4CE100062B9C0 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		0282874C1CE4E3A90062B9C0 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		0282874D1CE4E3A90062B9C0 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 		029BFC121CD955C300D91894 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		029BFC161CD955C300D91894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		029BFC181CD955C300D91894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,10 +107,14 @@
 		029BFC141CD955C300D91894 /* FunFacts */ = {
 			isa = PBXGroup;
 			children = (
+				0282874C1CE4E3A90062B9C0 /* ColorWheel.h */,
+				0282874D1CE4E3A90062B9C0 /* ColorWheel.m */,
 				029BFC181CD955C300D91894 /* AppDelegate.h */,
 				029BFC191CD955C300D91894 /* AppDelegate.m */,
 				029BFC1B1CD955C300D91894 /* ViewController.h */,
 				029BFC1C1CD955C300D91894 /* ViewController.m */,
+				028287491CE4CE100062B9C0 /* FactBook.h */,
+				0282874A1CE4CE100062B9C0 /* FactBook.m */,
 				029BFC1E1CD955C300D91894 /* Main.storyboard */,
 				029BFC211CD955C300D91894 /* Assets.xcassets */,
 				029BFC231CD955C300D91894 /* LaunchScreen.storyboard */,
@@ -272,7 +282,9 @@
 			files = (
 				029BFC1D1CD955C300D91894 /* ViewController.m in Sources */,
 				029BFC1A1CD955C300D91894 /* AppDelegate.m in Sources */,
+				0282874B1CE4CE100062B9C0 /* FactBook.m in Sources */,
 				029BFC171CD955C300D91894 /* main.m in Sources */,
+				0282874E1CE4E3A90062B9C0 /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +508,7 @@
 				029BFC411CD955C300D91894 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		029BFC421CD955C300D91894 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				029BFC441CD955C300D91894 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		029BFC451CD955C300D91894 /* Build configuration list for PBXNativeTarget "FunFactsUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				029BFC471CD955C300D91894 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
